@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testplanner-releases
+  description: Release channel for public TestPlanner packages and binaries
+  labels:
+    scaffolder-template-name: create-repository
+  annotations:
+    github.com/project-slug: DocPlanner/testplanner-releases
+spec:
+  type: service
+  lifecycle: experimental
+  owner: docplanner/team-devee
+
