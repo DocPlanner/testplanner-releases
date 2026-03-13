@@ -1,0 +1,18 @@
+{
+  "version": "2.294.2",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/DocPlanner/testplanner-releases/releases/download/2.294.2/tpcli_windows_amd64.zip",
+      "hash": "d7a1168d5061b36b2257a887872ac4e475826ba1aa475b99bb77ac6b1b178a47",
+      "bin": "tpcli.exe"
+    },
+    "arm64": {
+      "url": "https://github.com/DocPlanner/testplanner-releases/releases/download/2.294.2/tpcli_windows_arm64.zip",
+      "hash": "c72c722e4ea0cad117cf14790682635b97b8582478d6798e6daa8c559ac7d7e1",
+      "bin": "tpcli.exe"
+    }
+  },
+  "homepage": "https://github.com/DocPlanner",
+  "license": "Proprietary",
+  "description": "TestPlanner CLI"
+}
