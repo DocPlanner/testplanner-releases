@@ -3,7 +3,7 @@ cask "tpcli" do
   name "tpcli"
   desc "TestPlanner CLI"
   homepage "https://github.com/DocPlanner"
-  version "2.296.0"
+  version "2.297.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "tpcli" do
   on_macos do
     on_intel do
       url "https://github.com/DocPlanner/testplanner-releases/releases/download/#{version}/tpcli_darwin_amd64.tar.gz"
-      sha256 "762cd0594c37d26a009228dee37824d5569c23636c555c1923dbea0cde4fefd3"
+      sha256 "a083a172cca5438c02350fc5ba4c43bbe2acdd7270d16bda4b919bbf07003ba1"
     end
     on_arm do
       url "https://github.com/DocPlanner/testplanner-releases/releases/download/#{version}/tpcli_darwin_arm64.tar.gz"
-      sha256 "f7e77f7c5da4bfa070da8c319e080ed6270e3b75f892c4931d5d921bd07079f0"
+      sha256 "88c370fcc6fcffdbbc6a25b9467a20e209e52b1e0e639b2dccc8d079de136279"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DocPlanner/testplanner-releases/releases/download/#{version}/tpcli_linux_amd64.tar.gz"
-      sha256 "62368de515d45c9631afddef590f59254bde70bc8518d9fffb847dde45b2102c"
+      sha256 "2c3763f16bfc6f8eda34a700743ed1fdcfd89fd840ff27bbaea4f57621106fc8"
     end
     on_arm do
       url "https://github.com/DocPlanner/testplanner-releases/releases/download/#{version}/tpcli_linux_arm64.tar.gz"
-      sha256 "ef16277cbe68d28d19a7fc4d7cb3a7d48637ceb95b5630a81d0cbe173d8a6eb4"
+      sha256 "ae990fd67124baebf922e473e75a105dd8540428a2873020ab8f9e315021d5aa"
     end
   end
 
