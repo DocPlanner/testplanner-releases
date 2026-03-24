@@ -9,6 +9,5 @@ metadata:
     github.com/project-slug: DocPlanner/testplanner-releases
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: docplanner/team-devee
-
