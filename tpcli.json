@@ -1,14 +1,14 @@
 {
-  "version": "2.310.0",
+  "version": "2.310.1",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/DocPlanner/testplanner-releases/releases/download/2.310.0/tpcli_windows_amd64.zip",
-      "hash": "eb67b8917b96f228ace2efa0a3dea91a3906ae8ed200c01fb755428ab4be8b4e",
+      "url": "https://github.com/DocPlanner/testplanner-releases/releases/download/2.310.1/tpcli_windows_amd64.zip",
+      "hash": "eb54becd67ee818392f6512f332ce9883cced21cb71fddca70f2f07223a22e1c",
       "bin": "tpcli.exe"
     },
     "arm64": {
-      "url": "https://github.com/DocPlanner/testplanner-releases/releases/download/2.310.0/tpcli_windows_arm64.zip",
-      "hash": "89f4e6233fc56731cadc4fdd0ac31afd96be096958d0ff0ef0b8cd911e28ad27",
+      "url": "https://github.com/DocPlanner/testplanner-releases/releases/download/2.310.1/tpcli_windows_arm64.zip",
+      "hash": "be1404a49687b5455bd8279771b0f7ad5188011b9a2fdaf91897666f2e424186",
       "bin": "tpcli.exe"
     }
   },
