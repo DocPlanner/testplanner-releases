@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: testplanner-releases
+  security:
+    sensitiveDataType: ["NO_SENSITIVE"]
+    accessLevel: ["EMPLOYEES"]
+    repositoryType: "CLI Tool"
   description: Release channel for public TestPlanner packages and binaries
   labels:
     scaffolder-template-name: create-repository
